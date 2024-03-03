@@ -1,0 +1,8 @@
+CREATE TABLE customers (
+    sno SERIAL PRIMARY KEY,
+    customer_name VARCHAR(255) NOT NULL,
+    age INT NOT NULL,
+    phone VARCHAR(20) NOT NULL,
+    location VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
